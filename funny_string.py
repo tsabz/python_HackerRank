@@ -16,3 +16,22 @@
         #  1   0  1  1 0 1 1 0 - fills those numbers in with 1 and the rest 0
 
         # every single key on your keyboard has a number translated with it 
+
+#practice example ord() is how you find the valie
+# s = input("Enter value: ")  # this line requires Python 3.x, use raw_input() instead of input() in Python 2.x
+
+# l1=[c for c in s]   # in Python, a string is just a sequence, so we can iterate over it!
+# l2=[ord(c) for c in s]
+
+# print(l1)
+# print(l2)
+print("*************************************")
+def funnyString(s):
+    r = s[::-1] #reverse string [::-1]
+
+    arr1 = [ord(t) for t in s]
+    arr2 = [ord(t) for t in r]
+    
+    return arr1, arr2
+
+print(funnyString("acxz"))
