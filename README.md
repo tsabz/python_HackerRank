@@ -33,5 +33,11 @@
     Binary Combination for A = 1 0 0 0 0 0 1
     ```
 
+### Unicode can represent more bits than ASCII 8, 16 or 32 BITS
+        - 32 BITS = 2,147,483,647
+    - meaning it can use a wider range of combainatinos to represent different symbols and alphabets/ emojis
+
+
+
  ## Resources 
  https://www.youtube.com/watch?v=5aJKKgSEUnY
