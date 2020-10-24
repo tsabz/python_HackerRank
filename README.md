@@ -18,4 +18,20 @@
           1   0  1  1 0 1 1 0 - fills those numbers in with 1 and the rest 0
     ```
 
- ### Every single key on your keyboard has a number translated with it 
+ ### Every single key on your keyboard has a number associated with it 
+
+ ### ASCII has 7 bits
+ - meaning it has numbers 64, 32, 16, 8 , 4, 2, 1 to preform as many cobincations to create 128 numbers
+    - for example: 
+    #### Binary Combination for A = 1 0 0 0 0 0 1
+    ```
+    Binary combination for letter A = 65, 64 + 1
+
+    64 32 16 8 4 2 1 
+    1  0  0  0 0 0 1
+
+    Binary Combination for A = 1 0 0 0 0 0 1
+    ```
+
+ ## Resources 
+ https://www.youtube.com/watch?v=5aJKKgSEUnY
