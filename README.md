@@ -1,8 +1,7 @@
 # python_HackerRank
 
 ## ASCII - using numbers to represent text
-### it's a ways for computer to store characters easily
-### in its memory by convertiving them to numbers
+- it's a way for computers to store characters easily in its memory by convertiving them to numbers
 ### uppercase A is always asigned the number 65
 ### ! is always number 33
 ###  ASCII Charactars = 128 
@@ -14,8 +13,8 @@
     ```
         10110110
 
-        182 
-         128 64 32 16 8 4 2 1 - what numbers add to 182
+        182 - what numbers add to 182?
+         128 64 32 16 8 4 2 1 - 128 , 32 , 16, 4, 2
           1   0  1  1 0 1 1 0 - fills those numbers in with 1 and the rest 0
     ```
 
