@@ -28,10 +28,15 @@
 print("*************************************")
 def funnyString(s):
     r = s[::-1] #reverse string [::-1]
+    # l = len(s)
 
-    arr1 = [ord(t) for t in s]
-    arr2 = [ord(t) for t in r]
+    for i in range(1, len(s)):
+        if abs(ord(s[i]) - ord(s[i-1])) != abs(ord(r[i] - ord(r[i-1]))):
+            return "Not Funny"
     
-    return arr1, arr2
+    return "Funny"
+
+    # j = [arr2[0] for b in arr2]
+
 
 print(funnyString("acxz"))
