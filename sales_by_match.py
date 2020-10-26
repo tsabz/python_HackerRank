@@ -1,3 +1,10 @@
+import math
+import os
+import random
+import re
+import sys
+
+
 # Theres an array of socks, we must find the number of pairs there are.
 
 # n = 7 , length of the array, number of socks in a pile [1,2,1,2,1,3,2]
@@ -9,3 +16,16 @@
 #
 # 
 #  n = len(ar)+1
+
+def sockMerchant(n, ar):
+
+    counter = {}
+
+    for i in ar:
+        # print(i)
+        counter = i        
+        print(counter)
+        
+       
+
+sockMerchant(7,[1,2,1,2,1,3,2])        
