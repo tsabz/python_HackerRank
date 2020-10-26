@@ -20,10 +20,10 @@ import sys
 def sockMerchant(n, ar):
 
     counter = {}
-
+    n = len(ar) 
     for i in ar:
         # print(i)
-        counter = i        
+        counter[n] = i        
         print(counter)
         
        
