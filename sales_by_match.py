@@ -19,13 +19,16 @@ import sys
 
 def sockMerchant(n, ar):
 
-    counter = {}
+    sock_drawer = []
     n = len(ar) 
-    for i in ar:
-        # print(i)
-        counter[n] = i        
-        print(counter)
-        
+    answer = 0
+    for i in range(n):
+        if ar[i] not in sock_drawer:
+            sock_drawer.append(ar[i])            
+        else:
+            sock_drawer.remove(ar[i])
+            answer = answer + 1
+    print(answer)
        
 
 sockMerchant(7,[1,2,1,2,1,3,2])        
